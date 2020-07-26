@@ -1,0 +1,205 @@
+​<!DOCTYPE html>
+<html>
+<head>
+	<!-- imports fonts and icons -->
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" href="https://use.typekit.net/pxb3ypb.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/projectpage.css">
+	<meta charset='utf-8'>
+
+</head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<title> twitter </title>
+
+<body>
+
+	<div id="link-menu">
+		<div class="link"><a href="index.html">home</a></div>
+		<div class="link"><a href="projects.html">projects</a></div>
+		<div class="link"><a target="_blank" href="files/hannah_chow_dev_resume.pdf">résumé</a></div>
+		<a class="link" href="mailto:hannah_chow@brown.edu"><i style="font-size: 14px; margin-top: 4px; color: black;" class="fas fa-envelope"></i></a>
+		<a class="link" target="_blank" href="https://github.com/hannahchow"><i style="font-size: 14px; margin-top: 4px; color: black;" class="fab fa-github"></i></a>
+		<a class="link" target="_blank" href="https://www.linkedin.com/in/hannahechow/"><i style="font-size: 14px; margin-top: 4px; color: black;" class="fab fa-linkedin"></i></a>
+	</div>
+	
+	<div class="project-section">
+		<div class="summary-section">
+			<div class="summary-info-box">
+				<div class="summary-title-box">
+					<div class="summary-title">TWITTER</div>
+					<div class="summary-subtitle"> — Data Visualizer Redesign and Implementation</div>
+				</div>
+				<div class="summary-description">Summer 2019 | UI/UX &amp; Web Development</div>
+			</div>
+			<div class="summary-body">
+				During Summer 2019, I worked as a front-end software engineering intern for Twitter at their San Francisco heaquarters. I was placed on an internal team that built and monitored internal data analytics tools for Twitter's Data Science sector, and I was brought on as a front-end engineer with design experience to build and implement a better interface for charting and graphing visualizations. Over the course of my internship, I used a blend of my coding and design skills to determine the pain points of the existing product, conducted user research to better understand use cases and personas, and implemented a solution (both the interface and the functionality).
+				
+				<br><br>Because of the nature of my internship, I cannot make some aspects of this project public. All assets have been approved to use by Twitter.
+			</div>
+		</div>
+		<div class="section-wrapper">
+			<div class="section-header">PROJECT SPACE &amp; MOTIVATION</div>
+			<div class="section-text">
+
+				The Twitter Data Science sector uses many different tools for visualizing data, including Zeppelin, a web-based notebook and internal analytics product that is used for querying and displaying data. However, this system has many shortcomings, namely that the visualization library is not verbose, there are many buggy interactions, and the UI/UX is extremely frustrating to navigate.
+
+				<br><br>
+
+				There was a necessity for a more flexible and extensive data visualization & charting system in Zeppelin and a more productive and user-friendly workflow. I was tasked with creating Zeppelin-integrated visual editor that allows a user to query & pull data into the editor, turn this data into beautiful, pre-formatted charts & graphs, and customize these visualizations.
+
+				<br><br><br>
+
+				<div class="small-section-container">
+					<div class="small-section"><img style="width: 100%;" src="images/twitter/zeppelin1.png"/></div><br><br>
+					<div class="small-section"><img style="width: 100%;" src="images/twitter/zeppelin2.png"/></div>
+				</div>
+
+				<br><br><br>
+
+				<div class="small-section-container">
+					<div class="small-section">
+					<div class="section-subheader" style="margin-top: 0px !important;">Goals</div>
+					<ul>
+						<li style="padding-bottom: 20px;">Build a visual chart editor that will allow users to easily edit and customize data visualizations</li>
+						<li style="padding-bottom: 20px;">Create a more user-facing, easily navigable interface</li>
+						<li>Ability to export and render finished visualizations in Zeppelin paragraphs (with dynamic data), and integrate my system with the currently existing one</li>
+					</ul>
+					</div>
+					<br>
+					<div class="small-section">
+					<div class="section-subheader" style="margin-top: 0px !important;">Process</div>
+						<ul>
+							<li style="padding-bottom: 20px;">Design outline and user research</li>
+							<li style="padding-bottom: 20px;">Prototyping</li>
+							<li style="padding-bottom: 20px;">Implementation</li>
+							<li style="padding-bottom: 20px;">Critique session, stakeholder presentations, and iteration</li>
+							<li>Final demo &amp; user training</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="section-header">USER RESEARCH</div>
+			<div class="section-text">
+				<br>
+				By far one of the most exciting parts of this project was the fact that I could interact and interview the eventual users of this product! Because this product was internal facing and the Data Science sector of Twitter is ~100, this made receiving feedback a smooth and natural-feeling process.
+
+				<br><br>
+				To start out, I had my mentor and manager on my engineering team put me in contact with users of Zeppelin and other data scientists. This initial group consisted of users unfamiliar with Zeppelin, power users of the system, those who had effectively given up on the current visualization UI, etc. I came up with quantitative and qualitative questions to garner pain points and bright spots, their wants and needs, and use cases. I also had some users participate in in-depth interviews, and worked with them one-on-one to ideate their ideal visualization systems (including functionality and interaction).
+
+				<br><br>
+				A few common points stood out to me. Many were concerned about more functional issues, such as bugs or limited graph options. However, the vast majority had issues mainly with the UI. The process of selecting a graph or chart type was complicated and hard to change. Additionally, the interactions for customizing visualizations were frustrating — many involved dragging and dropping a property (which would oftentimes error, and not tell the user until after they finished customizing) and then giving it some value. Finally, interacting with data in table form was limited and not as flexible as the data scientists would like. With these concerns in mind, I proceeded into prototyping the interface.
+				
+			</div>
+
+			<div class="section-header">PROTOTYPING</div>
+			<div class="section-text">
+
+				<div class="section-subheader">Lo-Fi Prototyping</div>
+				I am unable to share my ideation and paper prototypes, but I mocked up variations of the current interface and invited data scientists to participate in a prototype testing session.
+				<br><br><br>
+
+				<div class="section-subheader">Assets</div>
+				<br>
+				<div class="small-section-container">
+					<div class="small-section"><img style="width: 100%;" src="images/twitter/assets.png"/></div>
+					<div class="small-section">Unlike many projects I've worked on before, Twitter has an extensive design language and library. I reached out to both designers (both interns and full time employees) to gain access to these assets and was trained in how to use the prototyping stack in order to create my designs, and had several informal critiques to further improve my design. This was an exciting opportunity for me to learn how to use assets that already existed, and bypass my own design habits to create a product in line with Twitter's design standards. Learning how to integrate feedback from non-stakeholders was also a plus.</div>
+				</div>
+
+				<br><br><br>
+
+				<div class="section-subheader">Hi-Fi Prototyping</div>
+				<br>
+				<img style="width: 100%;" src="images/twitter/1.png"/>
+
+				<br><br>
+
+				<div class="small-section-container">
+					<div class="small-section"><img style="width: 100%;" src="images/twitter/2.png"/></div>
+					<div class="small-section"><img style="width: 100%;" src="images/twitter/3.png"/></div>
+				</div>
+
+				<img style="width: 100%;" src="images/twitter/4.png"/>
+
+				<br><br>
+
+				<img style="width: 100%;" src="images/twitter/5.png"/>
+			</div>
+
+		<div class="section-header">RESULTS</div>
+			<div class="section-text">
+				<div class="section-subheader">Final Product</div>
+
+				<br>
+
+				<img style="width: 70%; margin-left: 15%;" src="images/twitter/final1.png"/>
+
+				<br><br><br>
+
+				<img style="width: 70%; margin-left: 15%;" src="images/twitter/final2.png"/>
+
+				<br><br><br>
+				<img style="width: 70%; margin-left: 15%;" src="images/twitter/final3.png"/>
+
+				<br><br><br><br>
+				<div class="section-subheader">UI/UX Redesign Improvements</div>
+
+				<br>
+				My goal with the final redesign of the visual editor was to make it as visually engaging and user-friendly as possible. Much of the data science sector does not have extensive experience with coding or the hidden functionality behind data visualizations, so I wanted to ensure that I "wrap" the functionality in uncomplicated UI elements. Additionally, because learning a new system and interactions can be daunting, I relied on familiar and standard interactions/design when possible (whether Twitter standards or general standards) to make the interface more learnable and retainable.
+
+				<br><br>
+				One highlight of my design is the use of tabs and switching during the visualization creation process instead of the nesting that was used in the Zeppelin interface. This way, users can have all salient functionality accessible to them upfront. 
+
+				<br><br>
+
+				Additionally, I switched customization options from dragging and dropping (which was both inefficient and a hindrance) to more appropriate options like text inputs, color palette selectors, sliders, and buttons. To allow users to more quickly switch between graph and chart types, I created a sorting and filtering system based on a user-selected dropdown. In redesigning the way in which users can import data, I built new pop-up interactions that, when finished, would populate a table-based data editor (similar to Google Sheets or Excel). Lastly, I made sure there was some degree of responsiveness!
+
+				<br><br><br>
+				<div class="section-subheader">Functionality Improvements</div>
+
+				<br><br>
+
+				<div class="small-section-container">
+					<div class="small-section">
+						<img style="width: 100%;" src="images/twitter/results.png"/>
+					</div>
+					<br>
+					<div class="small-section">
+					<ul>
+					<li style="padding-bottom: 20px;">10x more charting options</li>
+					<li style="padding-bottom: 20px;">Customization options</li>
+					<li style="padding-bottom: 20px;">Multiple renderings per visualization</li>
+					<li style="padding-bottom: 20px;">Unlimited visualizations per query</li>
+					<li style="padding-bottom: 20px;">Dynamic data and persistence!</li>
+					<li style="padding-bottom: 20px;">Contextual “zooming in” & paring</li>
+					</ul>
+				</div>
+				</div>
+				
+
+			</div>
+
+		<div class="section-header">CONCLUSION</div>
+			<div class="section-text">
+
+				With this project, I gained a much more in-depth understanding of utilizing company and brand assets &amp; technologies, acting as a cross-functional designer and refining my design process from conception to implementation, and working directly with stakeholders and users.
+
+				<br><br><br>
+
+				Some of the challenges I faced were navigating balance between supporting too much functionality (which could have lead to overcomplicated and unintuitive design), as well as determining how to integrate this new redesign with already existing UI within the product.
+
+				<br><br><br>
+
+				One of the biggest take-aways I gained was to always keep an open mind and being flexible, especially to new ideas or requests that come from user bases, managers, or stakeholders. I also learned how valuable iteration can be, especially when that iteration comes from critique sessions with both designers and other collaborators. Being able to produce a product that would make an impact on Twitter's data science sector was such a valuable and rewarding experience!
+
+				<br><br><br><br>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
