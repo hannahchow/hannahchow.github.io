@@ -7,7 +7,7 @@ Written in vanilla HTML + CSS + JS. Check it out @ [hchow.com](http://hchow.com)
 - [x] ~~migrate to github~~
 - [x] ~~logo redesign~~
 - [x] ~~2020 redesign~~
-- [ ] sticky header
+- [x] sticky header
 - [ ] desktop responsive
 - [ ] mobile responsive
 - [ ] more lists!
