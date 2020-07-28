@@ -6,7 +6,8 @@ Written in vanilla HTML + CSS + JS. Check it out @ [hchow.com](http://hchow.com)
 ### to-do:
 - ~~migrate to github~~
 - ~~logo redesign~~
-- 2020 redesign
+- ~~2020 redesign~~
+- sticky header
 - mobile responsive
 - more lists!
-- non-PDF resume
+- ~~non-PDF resume~~
