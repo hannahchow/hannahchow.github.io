@@ -4,10 +4,13 @@
 Written in vanilla HTML + CSS + JS. Check it out @ [hchow.com](http://hchow.com).
 
 ### to-do:
-- ~~migrate to github~~
-- ~~logo redesign~~
-- ~~2020 redesign~~
-- sticky header
-- mobile responsive
-- more lists!
-- ~~non-PDF resume~~
+- [x] ~~migrate to github~~
+- [x] ~~logo redesign~~
+- [x] ~~2020 redesign~~
+- [ ] sticky header
+- [ ] desktop responsive
+- [ ] mobile responsive
+- [ ] more lists!
+- [x] ~~non-PDF resume~~
+- [ ] what if...more illustrations?
+- [ ] IMAGINE IF...DARK THEME???
