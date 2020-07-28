@@ -6,7 +6,7 @@ Originally written in vanilla HTML + CSS, soon → Jekyll. Check it out @ [hchow
 ### to-do:
 - ~~migrate to github~~
 - ~~logo redesign~~
-- rewrite using Jekyll
+- 2020 redesign
 - mobile responsive
 - more lists!
 - non-PDF resume
