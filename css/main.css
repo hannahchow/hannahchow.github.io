@@ -9,10 +9,15 @@
   light-red: #EA846C;
   lightest-red: #F1927C;
 
+  green (chaider): #9FD6AB;
+  turquoise (cartoon): #9FD6D2;
+  lavender (bots): #86B1D0;
+  yellow (chicken): #F5D56F;
+
 */
 
 
-html, body, h1 {
+html, body {
   height: 100%;
   width: 100%;
   margin: 0 !important;
