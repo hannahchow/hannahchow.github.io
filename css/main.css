@@ -4,6 +4,7 @@
 
   dark: #252421;
   darkest-red: #B63621;
+  dark-red: #D14027;
   standard-red: #D56350;
   light-red: #EA846C;
   lightest-red: #F1927C;
@@ -47,7 +48,7 @@ header {
   color: #252421;
   padding-bottom: 3px;
   text-decoration: none;
-  border-bottom: 2px solid #D56350;
+  border-bottom: 2px solid #D14027;
 }
 
 .nav-link a:hover {
@@ -60,7 +61,7 @@ header {
   text-decoration: none;
 }
 
-#home, #about, #work, #projects {
+#home, #projects {
   height: 100%;
   width: 100%;
   position: relative;
@@ -69,8 +70,24 @@ header {
   justify-content: center;
 }
 
-#work, #projects {
-  display: none;
+#about {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#work {
+  height: 93%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #home-content {
@@ -95,15 +112,21 @@ header {
 }
 
 #home-text {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 13px;
+  line-height: 22px;
   letter-spacing: 0.75px;
   margin-bottom: 50px;
 }
 
 #home-text a:visited, #home-text a, #about-text a:visited, #about-text a {
-  color: #B63621;
+  color: #D14027;
   font-weight: 700;
+  transition: 0.3s;
+}
+
+#home-text a:hover, #about-text a:hover {
+  color: #D56350;
+  transition: 0.3s;
 }
 
 #logo{
@@ -111,14 +134,60 @@ header {
   width: auto;
 }
 
-#about-text {
+#about-title, #work-title {
   width: 726px;
-  font-size: 14px;
-  line-height: 20px;
+  letter-spacing: 1px;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+#about-text, #work-text {
+  width: 726px;
+  font-size: 13px;
+  line-height: 22px;
   letter-spacing: 0.75px;
 }
 
+table { 
+  border: none; 
+  /*border-bottom: 2px solid #D14027;*/
+  border-collapse: collapse; 
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.75px;
+  vertical-align: top;
+}
+
+table td:first-child { 
+  border-left: none; 
+  padding-right: 20px;
+}
+
+table td:nth-child(2) { 
+  border-right: none; 
+  padding-left: 20px;
+  width: 64%;
+}
+
+table td:nth-child(1),  {
+  
+}
+
+table td { 
+  border-bottom: none;
+  border-top: none; 
+}
+
+td, th {
+  border: 2px solid #D14027;
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 footer {
+  padding: 20px;
   text-align: center;
   font-size: 12px;
   font-weight: 400;
