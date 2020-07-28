@@ -67,7 +67,7 @@ header {
   text-decoration: none;
 }
 
-#home, #projects {
+#home {
   height: 100%;
   width: 100%;
   position: relative;
@@ -201,16 +201,28 @@ footer {
 
 }
 
-@media screen and (max-width: 500px) {
-  /*header {
-    background-color: white;
-  }*/
+.spacer {
+  display: none;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 500px) {
 
+  footer {
+    padding-top: 60px;
+  }
+
+  #work {
+    margin-top: 20vh;
+  }
+
+  #work-title {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 780px) {
   #logo{
-    height: 300px;
+    height: 300px !important;
     width: auto;
   }
 
@@ -235,13 +247,31 @@ footer {
   #home-text {
     margin-bottom: 30px;
   }
-
 }
 
+@media screen and (max-width: 900px) {
+
+  #logo {
+    height: 350px;
+  }
+
+  .spacer {
+    display: block;
+  }
+
+  #work {
+    padding-bottom: 20px;
+    padding-top: 50px;
+  }
+}
 
 @media screen and (max-width: 920px) {
 
   #about-text, #about-title {
+    width: 80%;
+  }
+
+  #work-text, #work-title {
     width: 80%;
   }
 
