@@ -13,3 +13,4 @@ Written in vanilla HTML + CSS + JS. Check it out @ [hchow.com](http://hchow.com)
 - [ ] more lists!
 - [x] ~~non-PDF resume~~
 - [ ] what if...more illustrations?
+- [ ] IMAGINE IF...DARK THEME???
