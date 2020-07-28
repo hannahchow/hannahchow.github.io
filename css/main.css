@@ -10,17 +10,19 @@
 
 */
 
+
 html, body, h1 {
   height: 100%;
   width: 100%;
   margin: 0 !important;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: 'Helvetica', 'Arial', sans-serif;
   letter-spacing: 2%;
-  background: #ffffff;
+  background: #FFFEFC;
   color: #252421;
 }
 
@@ -32,60 +34,6 @@ header {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-}
-
-#about, #work, #projects {
-  display: none;
-  height: 100%;
-  width: 100%;
-}
-
-#home {
-  height: 92%;
-  width: 100%;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#home-content {
-  width: 50%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-}
-
-#home-introduction {
-  margin-right: 50px;
-  width: 330px;
-  min-width: 330px;
-}
-
-#home-hello {
-  letter-spacing: 1px;
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 40px;
-}
-
-#home-tagline {
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0.75px;
-  margin-bottom: 50px;
-}
-
-#home-tagline a:visited, #home-tagline a {
-  color: #B63621;
-  font-weight: 700;
-}
-
-#logo{
-  height: 450px;
-  width: auto;
 }
 
 .nav-link, .nav-link a:visited {
@@ -110,6 +58,64 @@ header {
   border-bottom: 0;
   padding-bottom: 6px;
   text-decoration: none;
+}
+
+#home, #about, #work, #projects {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#work, #projects {
+  display: none;
+}
+
+#home-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+#home-introduction {
+  margin-right: 50px;
+  width: 330px;
+  min-width: 330px;
+}
+
+#home-hello {
+  letter-spacing: 1px;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+#home-text {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.75px;
+  margin-bottom: 50px;
+}
+
+#home-text a:visited, #home-text a, #about-text a:visited, #about-text a {
+  color: #B63621;
+  font-weight: 700;
+}
+
+#logo{
+  height: 450px;
+  width: auto;
+}
+
+#about-text {
+  width: 726px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.75px;
 }
 
 footer {
