@@ -8,7 +8,7 @@ Written in vanilla HTML + CSS + JS. Check it out @ [hchow.com](http://hchow.com)
 - [x] logo redesign
 - [x] 2020 redesign
 - [x] sticky header
-- [ ] desktop responsive
+- [x] desktop responsive
 - [ ] mobile responsive
 - [ ] more lists!
 - [x] non-PDF resume
