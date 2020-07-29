@@ -10,7 +10,7 @@ Written in vanilla HTML + CSS + JS. Check it out @ [hchow.com](http://hchow.com)
 - [x] sticky header
 - [x] desktop responsive
 - [x] non-PDF resume
-- [ ] mobile responsive
+- [x] mobile responsive
 - [ ] more lists!
 - [ ] what if...more illustrations?
 - [ ] IMAGINE IF...DARK THEME???
