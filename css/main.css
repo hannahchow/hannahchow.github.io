@@ -141,6 +141,10 @@ header {
   width: auto;
 }
 
+#mobile-links {
+  display: none;
+}
+
 #about-title, #work-title {
   width: 726px;
   letter-spacing: 1px;
@@ -292,7 +296,7 @@ footer {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 
   #logo{
-    height: 800px !important;
+    height: 700px !important;
     width: auto;
   }
 
@@ -310,14 +314,24 @@ footer {
   }
 
   #home-hello {
-    letter-spacing: 1.5px;
-    font-size: 46px;
+    letter-spacing: 1.5px !important;
+    font-size: 46px !important;
+    margin-top: 60px !important;
   }
 
   #home-text {
     font-size: 30px !important;
     line-height: 44px !important;
     letter-spacing: 1.25px !important;
+    margin-bottom: 60px !important;
+  }
+
+  #mobile-links {
+    display: block;
+  }
+
+  #home-links {
+    display: none;
   }
 
 }
