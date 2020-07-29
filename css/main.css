@@ -295,7 +295,7 @@ footer {
   } 
 
   #logo{
-    height: 400px !important;
+    height: 1000px !important;
     width: auto;
   }
 
@@ -304,6 +304,21 @@ footer {
     justify-content: center !important;
     align-items: center !important;
     margin: 0 !important;
+  }
+
+  #home-introduction {
+    margin-right: 0px !important;
+  }
+
+  #home-hello {
+    letter-spacing: 1.5px;
+    font-size: 36px;
+  }
+
+  #home-text {
+    font-size: 20px !important;
+    line-height: 32px !important;
+    letter-spacing: 1px !important;
   }
 
 }
