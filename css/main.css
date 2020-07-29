@@ -300,10 +300,10 @@ footer {
   }
 
   #home-content {
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
+    flex-direction: column-reverse !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 !important;
   }
 
 }
