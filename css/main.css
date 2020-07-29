@@ -290,7 +290,7 @@ footer {
 
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  
+
   #logo{
     height: 800px !important;
     width: auto;
@@ -305,8 +305,8 @@ footer {
 
   #home-introduction {
     margin-right: 0px !important;
-    width: 500px !important;
-    min-width: 500px !important;
+    width: 650px !important;
+    min-width: 650px !important;
   }
 
   #home-hello {
@@ -316,8 +316,8 @@ footer {
 
   #home-text {
     font-size: 30px !important;
-    line-height: 40px !important;
-    letter-spacing: 1px !important;
+    line-height: 44px !important;
+    letter-spacing: 1.25px !important;
   }
 
 }
