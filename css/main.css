@@ -281,34 +281,52 @@ footer {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 
   #logo{
-    height: 700px !important;
+    height: 700px;
     width: auto;
   }
 
   #home-content {
-    flex-direction: column-reverse !important;
-    justify-content: center !important;
-    align-items: center !important;
-    margin: 0 !important;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
   }
 
   #home-introduction {
-    margin-right: 0px !important;
-    width: 700px !important;
-    min-width: 700px !important;
+    margin-right: 0px;
+    width: 700px;
+    min-width: 700px;
   }
 
-  #home-hello, #about-title {
-    letter-spacing: 1.5px !important;
-    font-size: 46px !important;
-    margin-top: 60px !important;
+  #home-hello, #about-title, #work-title {
+    letter-spacing: 1.5px;
+    font-size: 46px;
+    margin-top: 60px;
   }
 
-  #home-text, #about-text {
-    font-size: 30px !important;
-    line-height: 44px !important;
-    letter-spacing: 1.25px !important;
-    margin-bottom: 60px !important;
+  #home-text, #about-text, #work-text, table {
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 1.25px;
+    margin-bottom: 60px;
+  }
+
+  #work {
+    height: 115%;
+    width: 100%;
+  }
+
+  td, th {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  table td:nth-child(2) { 
+    font-size: 22px;
+  }
+
+  #skills-spacer {
+    display: none;
   }
 
   #mobile-links {
@@ -317,6 +335,12 @@ footer {
 
   #home-links {
     display: none;
+  }
+
+  .nav-link, .nav-link a:visited {
+    margin-top: 30px;
+    font-size: 30px;
+    letter-spacing: 1.25px;
   }
 
 }
