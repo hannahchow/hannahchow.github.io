@@ -293,6 +293,19 @@ footer {
   body {
     background: red !important;
   } 
+
+  #logo{
+    height: 400px !important;
+    width: auto;
+  }
+
+  #home-content {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
 }
 
 
