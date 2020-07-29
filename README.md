@@ -9,8 +9,9 @@ Written in vanilla HTML + CSS + JS. Check it out @ [hchow.com](http://hchow.com)
 - [x] 2020 redesign
 - [x] sticky header
 - [x] desktop responsive
+- [x] non-PDF resume
 - [ ] mobile responsive
 - [ ] more lists!
-- [x] non-PDF resume
 - [ ] what if...more illustrations?
 - [ ] IMAGINE IF...DARK THEME???
+- [ ] cute preloader
