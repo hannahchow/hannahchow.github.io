@@ -205,7 +205,7 @@ footer {
   display: none;
 }
 
-@media screen and (max-width: 500px) {
+/*@media screen and (max-width: 500px) {
 
   footer {
     padding-top: 60px;
@@ -219,6 +219,7 @@ footer {
     padding-top: 100px;
   }
 }
+*/
 
 @media screen and (max-width: 780px) {
   #logo{
@@ -247,6 +248,15 @@ footer {
   #home-text {
     margin-bottom: 30px;
   }
+
+  #work {
+    margin-top: 15px !important; 
+    margin-bottom: 100px !important;
+  }
+
+  #work-title {
+    padding-top: 80px !important;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -265,7 +275,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 930px) {
 
   #about-text, #about-title {
     width: 80%;
