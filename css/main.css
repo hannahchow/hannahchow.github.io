@@ -337,6 +337,11 @@ footer {
     display: none;
   }
 
+  footer {
+    font-size: 26px;
+    letter-spacing: 1px;
+  }
+
   .nav-link, .nav-link a:visited {
     margin-top: 30px;
     font-size: 30px;
