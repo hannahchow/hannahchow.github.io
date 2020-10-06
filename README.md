@@ -11,6 +11,7 @@ Written in vanilla HTML + CSS + JS. Check it out @ [hchow.com](http://hchow.com)
 - [x] desktop responsive
 - [x] non-PDF resume
 - [x] mobile responsive
+- [ ] add projects back (YIKES)
 - [ ] more lists!
 - [ ] what if...more illustrations?
 - [ ] IMAGINE IF...DARK THEME???
